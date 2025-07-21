@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.con{
+    display: flex;
+    gap: 15px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+    gap: 20px;
+}
+.btn{
+     padding: 10px;
+    background-color: #0c0c0b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.btn-1{
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.btn-2{
+    padding: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.btn-3{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.lights{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #1d1c1b;
+    gap: 10px;
+}
+.light{
+    border: 1px solid black;
+    border-radius: 19px;
+    background-color: rgb(104, 111, 119);
+    margin: 10px;
+    padding: 20px;
+}
+body{
+    background-color: hwb(202 26% 11%);
+    /* background-image: url("https://media.gettyimages.com/id/637965130/photo/busy-street-in-los-angeles.jpg?s=612x612&w=gi&k=20&c=XuajUs8oD6SHJYt9sO--IChps239xHA2H9vqnwr2ICw=");
+    background-size: cover; */
+}
+h1{
+    animation-name: anim;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim{
+    25%   {color: red;}
+  25%  {color: rgb(255, 255, 12);}
+  50%  {color: rgb(255, 255, 255);}
+  80% {color: rgb(55, 0, 255);}
+}
